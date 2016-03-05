@@ -4,9 +4,9 @@ class Dice
 private:
 	
 public:
-	Dice();
-	~Dice();
-	int Getroll();
+	Dice();     //default constructor
+	~Dice();     //default destructor
+	int Getroll();    // Accessor
 
 };
 
