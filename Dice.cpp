@@ -1,23 +1,30 @@
 #include "Dice.h"
 #include <ctime>        
 #include <cstdlib>
-                     //include headers required to generate random numbers
+#include "Dice.h"
+        //include headers required to generate random numbers
 
 
 float Dice::average(){
+	return Getarray()/6;
 }
 
 int Dice::Getarray(){  
-	int array[5];
-	int i;
+	int Sum=0;
+	int array[6];
+    int i,j;
 
 	for( i = 0; i <= 5; i++){
 		array[i] = Getroll();
 
 	}
 
-	
-	                                         //array  method
+	for (j = 0; j <= 5; j++){
+		Sum =Sum  + array[j];
+		
+	}
+
+	return Sum;
 
 }
 
