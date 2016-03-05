@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Dice.cpp" />
-    <ClCompile Include="TestDeive.cpp" />
+    <ClCompile Include="TestDrive.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dice.h" />

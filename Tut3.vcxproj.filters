@@ -18,7 +18,7 @@
     <ClCompile Include="Dice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestDeive.cpp">
+    <ClCompile Include="TestDrive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

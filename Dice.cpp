@@ -4,6 +4,14 @@
                      //include headers required to generate random numbers
 
 
+
+float Dice::average(){
+}
+
+int Dice::Getarray(){                                 //array  method
+
+}
+
 Dice::Dice()
 {
 	
