@@ -4,11 +4,20 @@
                      //include headers required to generate random numbers
 
 
-
 float Dice::average(){
 }
 
-int Dice::Getarray(){                                 //array  method
+int Dice::Getarray(){  
+	int array[5];
+	int i;
+
+	for( i = 0; i <= 5; i++){
+		array[i] = Getroll();
+
+	}
+
+	
+	                                         //array  method
 
 }
 

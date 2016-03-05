@@ -8,7 +8,7 @@ public:
 	Dice();     //default constructor
 	~Dice();     //default destructor
 	int Getroll();    // Accessor
-	int Getarray();   
+	int Getarray();
 
 
 
